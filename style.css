@@ -1,0 +1,32 @@
+/* selector {
+  attribute: value;
+} */
+body{
+  background-color: pink;
+  color: black;
+}
+
+img{
+  height: 200px;
+}
+
+a{
+  display: block;
+  width: 100%;
+}
+/*
+.cd-store{
+  display: block;
+  width: 100%;
+  color: orange;
+} */
+
+/* .fun-fact{
+  width: 300px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 5px;
+  boarder: 1px solid black;
+
+} */
