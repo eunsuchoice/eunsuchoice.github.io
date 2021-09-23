@@ -29,10 +29,30 @@
     </div>
 
     <div class="homeContent">
-      <h2> "What Connects Us Together?" (2021) </h2>
-      <img src="images/30mff_thumbnail.jpg" alt="What Connects Us Together Thumbnail" class="center"/>
-      <h2> Click "WATCH THE FILM" to watch the film </h2>
+      <div id="getTicket">
+        <h2 id="grab"> Grab 2 FREE Tickets for You and a Friend and Enter the Theater!</h2>
+        <h3 id="grab2"> (Hover over me) </h3>
+        <div id="ticket">
+          <img id="ticket1" src="images/ticket.jpg" alt="Ticket" class="center"/>
+          <img id="ticket2" src="images/ticket.jpg" alt="Ticket" class="center"/>
+        </div>
+      </div>
+
+      <button id="enterButton" onclick="showVideo()">ENTER</button>
+
+      <div id="enter">
+        <h2> Money (2021) </h2>
+        <video id="video" controls>
+          <source src="https://www.commlab.nyuadim.com/MangF21/Money.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <h2> Enjoy the video! </h2>
+      </div>
+
+
+
     </div>
 
+    <script src="script.js"></script>
   </body>
 </html>
