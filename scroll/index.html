@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll Animation</title>
+
+<!-- SCRIPT -->
+  <script src="jquery-3.6.0.min.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="welcome" id="start">
+        <h1> Scroll Animation </h1>
+    </div>
+    <div class="block" data-aos="fade-up">
+        <h2> Phone's Journey </h2>
+        <p> Once upon a time... there was a phone. </p>
+    </div>
+    <div class="block" data-aos="fade-up">
+      <img src="IMG_1779.jpg" alt="phone on table" height=300px class="center"/>
+    </div>
+    <div class="block" data-aos="fade-down-right">
+      <img src="IMG_1780.jpg" alt="phone alone on table" height=300px class="center"/>
+    </div>
+    <div class="block" data-aos="flip-up">
+      <img src="iphone13.jpeg" alt="new phone" height=300px class="center"/>
+    </div>
+    <div class="block" data-aos="zoom-in">
+      <img src="oldphones.jpeg" alt="old phones" height=300px class="center"/>
+    </div>
+    <div class="block" data-aos="fade-up">
+      <img src="alloldphones.png" alt="old phones" height=300px class="center"/>
+    </div>
+
+
+    <canvas id="theCanvas" width="300" height="300"></canvas>
+
+    <script src="./script.js"></script>
+</body>
+</html>
