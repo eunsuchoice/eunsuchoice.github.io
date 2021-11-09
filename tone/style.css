@@ -1,0 +1,18 @@
+body{
+  background-color: yellow;
+  transition: 0.5s linear all;
+}
+
+/* .interactable {
+  transition: 1s linear all;
+  position: absolute;
+  width: 10%;
+  height: 10%;
+  top: 45%;
+  left: 45%;
+  border: 2px solid blue;
+} */
+
+h1,h2,h3,h4,p{
+  text-align: center;
+}
