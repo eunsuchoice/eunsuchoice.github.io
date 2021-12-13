@@ -1,0 +1,130 @@
+body {
+    background-color: #4C87EA;
+    border: 2px solid white;
+    border-radius: 40px;
+}
+
+/* styling the panels of webpages */
+.block {
+    height: auto;
+    width: 60vw;
+    margin: 5%;
+    border: 4px solid white;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+img:hover{
+  opacity: 0.7;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Verdana', monospace;
+    font-size: 10vw;
+    color: white;
+}
+
+h2{
+  text-align: center;
+  font-family: 'Verdana', monospace;
+  font-size: 5vw;
+  color: white;
+}
+
+h3{
+  text-align: center;
+  font-family: 'Verdana', monospace;
+  font-size: 2vw;
+  color: white;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+
+p{
+  text-align: left;
+  font-family: 'Verdana', monospace;
+  font-size: 1vw;
+  color: #444;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#start {
+  display: flex;
+  width: 100%;
+  margin: 0;
+}
+
+/* Collapsibles of 'How I worked on...' */
+/* styling the button that is used to open and close the collapsibles */
+.collapsible {
+  background-color: white;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  width: 60vw;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-family: 'Verdana', monospace;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #A0C4FF;
+}
+
+/* styling the collapsible content. */
+.content {
+  margin-left: 20vw;
+  margin-right: 20vw;
+  width: 60vw;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.collapsible:after {
+  content: '\02795'; /* + */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* - */
+}
+
+/* styling link to github */
+.linkGithub {
+  background-color: white;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  margin-top: 1vh;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  width: 60vw;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-family: 'Verdana', monospace;
+  font-size: 15px;
+}
+
+.active, .linkGithub:hover {
+  background-color: #A0C4FF;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eunsu Portfolio</title>
+
+<!-- SCRIPT -->
+  <script src="jquery-3.6.0.min.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+
+    <div class="bigheading" id="start">
+        <h1> EUNSU CHOI's PORTFOLIO WEBSITE</h1>
+    </div>
+
+    <h3> Eunsu Choi is an off-cycle senior student at NYU Abu Dhabi. Today, December 14 2021, marks the last school day of her life.
+         This portfolio website has collected the Comm Lab projects she has partaken in her last semester of college.
+    </h3>
+
+    <!-- PROJECTS -->
+    <h2> 30 MINUTE FILM FESTIVAL </h2>
+    <img src="3mff.jpg" class="block" data-aos="flip-up" id="30MFF"/>
+    <button type="button" class="collapsible">About the project - 30 Minute Film Festival</button>
+      <div class="content">
+        <p>by Eunsu Choi <br><br>The project is to build a website that assimilates the cinema experience of getting a ticket to watch a film.
+          (The navigation bar on the far left and the name/date of event coming on the right; a ticket being "torn apart"
+          to see a film, etc.) I imitated the layout and design of the cinema tickets, and I was striving to create an
+          experience that elicits nostalgia towards the film screenings with tickets and antique-ish vibe with the serif fonts.
+          Process: How did you go about implementing the concept. I looked up different ideas on the web to create a layout I
+          could code. I got to learn about the flex tool, and I also used inspection tools around my website to make sure
+          I can best fit my divs and elements in the gridlines. Reflection/Evaluation: This should bookend the initial concept
+          and talk about whether your expectations and goals were met in the process of building the final working version.
+          The initial concept looked even closer to cinema tickets, but I soon realized that my initial idea was not
+          appropriate for a web page, since it was too short in height, as it mimicked the cinema tickets even more than
+          my final version. Moreover, I wanted to create an animation-like effect that actually tears apart a movie ticket,
+          but that seemed very difficult at my level of underrstanding. I felt quite devastated trying to make something
+          that was a step beyond what was covered in tutorial videos, but at the end I think I achieved my goals that was
+          constantly reshaped during the coding process.</p>
+      </div>
+    <button type="button" class="linkGithub" id="link30MFF">Link to Github Page</button>
+
+    <h2> COMIC on WEB: A MISSING CAT </h2>
+    <img src="cow.jpg" class="block" data-aos="flip-up" id="cow"/>
+    <button type="button" class="collapsible">About the project - COMIC on WEB: A MISSING CAT</button>
+      <div class="content">
+        <p>by Eunsu Choi, Maya Lee, Tina Zhang, Chinonyerem Ukaegbu <br><br>
+It has been 585 days since March 7th, 2020, the day of school closure at NYUAD. With all classes turning remote, many students reported that the campus residents heavily depend on the campus cats for their mental health and healing. Until there was a cat missing… Where did the cat go?
+<br>
+This comic project leads the readers to narrowing down the exact place the cat went. Readers get to talk to a catmom, fellow campus cats, and looks around the map, and then the cat-napper calls the reader to tease them, but the cat-napper gets caught at the airport.
+<br>
+Implementation
+<br><br>
+Index/Loading Page
+<br>
+Will you help us find the missing cat?? Help or Ignore. In the loading page, we decided to let the reader decide if he or she wants to help us find the missing cat or not. We did this by making two buttons. Clicking the help button will lead to the first pannel of the comic, while clicking the ignore button will.. make us cry. The gif file was made through photoshop.
+<br>
+Panel 1:
+<br>
+The first panel sets an introduction to the whole comic. It introduces how a cat has gone missing and the whole journey is about finding it! Photoshop was used to crop the image of the wanted cat. After that, a black and white filter (done through grayscale) was used to deliver a serious mood.
+<br>
+Panel 2:
+<br>
+The second panel shows the cats and the cat mom being interviewed. This panel provides clues and hints as to where the missing cat might be which influences the decisions the reader makes in the next panel. The images were placed in a grid and the grid-template-areas properties was used to position the images. Then the speech bubbles were downloaded as PNGs with transparent backgrounds. And then, the opacity of the speech bubbles was set to 0 and would only be displayed when the reader hovers over the image.
+<br>
+Panel 3 and 5:
+<br>
+The third panel was the world map panel and the fifth panel was the airport page. For these parts, it was mostly about hovering over images and interact with them. What was difficult was that you can not interact with the image if it’s embedded with the background image, and two solutions were found were that: first using svg to trace all the border needed, and interact through different layers’ id and this was applied to the world map panel. We found a traced world map on internet, and then called the ID of different layers in CSS to change the color of the continent chosen. And the second solution is to place different layers of images, then one can directly interact with the image. However, this solution has the issue of positioning the image precisely. So to solve this, the grid display was used to posiiton the image.
+<br>
+Panel 4:
+<br>
+Photoshop was used to edit the image and illustrator to trace the image and buttons to allow for interactivity. The class name was called from the svg file to start the ringtone when hovered on the top, make colors darken when buttons are hovered, and to trigger sound when clicked on the green button. Then logic was applied to distort the audio and make it sound spooky.
+<br>
+Panel 6:
+<br>
+Finally!! This panel shows you who the criminal was. Speech balloons were used to make it seem like there were actual dialogues. The location was set by giving specific location through percentages.
+<br>
+Ending Page:
+<br>
+The ending page wraps up the comic by granting you a huge amount of money! A cute image with the message "Congratulations You Won!" and an image of a happy cat is displayed! The adventure is over but if the reader would like to play again, they can either click the 'Go Back to Home' button on the navigation bar which will take them to the index page, or click the 'Missing Cat' button which will take them to the first panel.
+<br><br>
+Reflection<br>
+We found this project to be very fun! It was rather interesting to work on the different parts of the website together and to make some certain changes, discuss how we could make it better, discuss implementations etc. Overall, I believe our expectations for the project were met. We just really wanted the readers to have fun exploring the story and to have a very wholesome experience in total. We also believed the implementation was way less stressful than the first website, now that we've played around with website making so it was a really interesting experience. We hope the readers have as much fun experiencing the comic as we did making it!
+<br><br>
+Interesting Notes<br>
+For some reason, one of the fonts that was in .ttf wasn't loading until we converted it to .otf even though the other fonts were in .ttf! Also, Github takes some time to show the changes you've effected so you have to consider that as well.
+
+        </p>
+      </div>
+    <button type="button" class="linkGithub" id="linkcow">Link to Github Page</button>
+
+    <h2> SOUND on WEB: WAY BACK HOME </h2>
+    <img src="sow.jpg" class="block" data-aos="flip-up" id="sow"/>
+    <button type="button" class="collapsible">About the project - SOUND on WEB: WAY BACK HOME</button>
+      <div class="content">
+        <p> by Eunsu Choi, Jeongin Lee, Mike Kattan<br><br>
+
+
+Project Description: Way Back Home is a website that puts user in the shoes of Bumble_Broken, an outdated robot that is lost and needs help going back home. Bumble_Broken may not have a working vision-camera, nor a beautifully recorded voice, but has a great memory. After the user hears the instructions, different recordings of landmarks on his way home will be played with binaural audio. It may be coming from the left or the right, and the user will have to carefully listen to where the audio seems to sound from and press the correct arrow key to make his way. The concept of our project is a website that can give the user a break from visual stimuli that the internet is already full of and shifting their focus to the auditory sensations, thereby also widening the accessibility for the users with blindness as well. We were striving to create an experience that can bring wonders to the users with the real-life-like experience of hearing when you are walking across a town.
+<br><br>
+Process: We first started with an idea that this project could be like an audio comic that takes the user to a way home. From there, we designed a small town with different signature landmarks - waterfall, horse farm, marketplace, and train station - and devised an overall user experience of making turns with two directions. Then we designed the audio by making recordings of the instructions, the voice of Bumble_Broken, and the voices of house owners that Bumble_Broken enters when the user makes mistakes. We also used the binaural panning in Logic Pro to create spatial sensation with the audio files of the different landmarks from different directions and making the sensation that the user is ‘making the turn’. Then we started developing the website, using jQuery to trigger the audio with keydown of arrow keys, and also limiting the audios to play one at a time to avoid overlapping of several audio files. We also made some visual cues - colors and text - to help the users visualize the landmarks they have ‘arrived at’.
+<br><br>
+Reflection/Evaluation: Our expectations and goals of creating a website that makes the user rely on their auditory senses to make decisions were met pretty well in the process of building the final working version. There were many smaller issues that came up in programming the website, and in the later stages, troubleshooting often took more time, having to wait for the audios to finish playing. However, we consider this project to have met our expectations as the audio stimuli and the user keypresses
+            are working hand in hand.</p>
+      </div>
+    <button type="button" class="linkGithub" id="linksow">Link to Github Page</button>
+
+    <h2> VIDEO on WEB: ORIGAMI </h2>
+    <img src="vow.jpg" class="block" data-aos="flip-up" id="vow"/>
+    <button type="button" class="collapsible">About the project - VIDEO on WEB: ORIGAMI</button>
+      <div class="content">
+        <p> by Eunsu Choi, Maya Lee, Nouf Alabbasi, Yasmin Alshurafa <br> <br>
+          Project Description: Our project is a web page that tells the story of a child, Peter, that has Covid-19 and is bored of sitting home doing nothing. As a result, his mother recommends he work on some origami. The concept of our web page is to allow people to learn new skills but also learn how to do different simple origami. As origami is an exciting activity that can thankfully be done indoors, we believe this will add some joy to a somewhat boring life new-normal has brought us. We are striving to allow the user to interact with our web page using some interactive elements but also interact in real life with papers to create origami. Process: How did you go about implementing the concept? We started by brainstorming for ideas. We wanted to create a web page that includes a video series that teaches the users how to do something. We finally decided to go with teaching the users how to do origami. Three different simple origami models were filmed. We chose models that are simple but have different difficulties as they will be fit for different group age users. Adult beginners can use the videos for guidance and kids too as the steps are easy to be followed. To add the story element but also the Covid-19 situation we are currently living in, we decided to have this web page dedicated to our character Peter who is bored from staying home all day because of this infection with the virus. In addition to the story element, for interaction, multiple elements were added. Buttons, alongside a change in element when hovering over different objects and interaction with video to start, were some of the interactive things we added to our webpage. Finally, for some extra touches, ads on the sides of the videos were added as some sort of a creative element for the user to interact with. We somehow wanted to mimic how web pages include side ads that distract the users away from watching the video.
+          <br><br>
+          Reflection/Evaluation: The goal of our project was to create a website with tutorial videos that target all ages. We believed that origami tutorial videos would provide people something exciting to do in the boring and hard times Covid 19 has been giving us. Because of this goal, we focused a lot on selecting a project users can engage in, along with elements of interactivity. Users are able to drag hands onto the video screen to start the video. Users have buttons to click when they wish to go back to home and choose another video to watch. We believe that this created interactivity users can enjoy. Most importantly, we are happy to have delivered a project that will give some excitement to the audience and the users. We hope that with this project, more users will gain interest in origami and other indoors activities and keep themselves happy and safe until Covid 19 ends.
+
+        </p>
+      </div>
+    <button type="button" class="linkGithub" id="linkvow">Link to Github Page</button>
+
+    <h2> <br><br>more to come... </h2>
+
+
+
+    <canvas id="theCanvas" width="300" height="300"></canvas>
+
+    <script src="./script.js"></script>
+</body>
+</html>
