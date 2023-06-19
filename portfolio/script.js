@@ -20,7 +20,7 @@ $("#sow").click(() => {
   window.open('https://jjeongin.github.io/micro-projects/way-back-home/');
 });
 $("#linksow").click(() => {
-  window.open('https://github.com/jjeongin/micro-projects/way-back-home');
+  window.open('https://github.com/jjeongin/way-back-home');
 });
 
 $("#vow").click(() => {
