@@ -3,7 +3,7 @@ AOS.init()
 // Click link buttons to go to Github pages
 
 $("#30MFF").click(() => {
-  window.open('https://eunsuchoice.github.io/30mff/meet.html');
+  window.open('https://eunsuchoice.github.io/30mff/index.html');
 });
 $("#link30MFF").click(() => {
   window.open('https://github.com/eunsuchoice/eunsuchoice.github.io/tree/main/30mff');
