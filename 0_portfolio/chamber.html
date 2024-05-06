@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Eunsu Choi</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Add icon library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		/*Social media icons*/
+
+.fa {
+  padding: 20px;
+  font-size: 45px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.5;
+    transition-duration:0.4s
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+	</style>
+
+</head>
+<body>
+	<div id="MainContainter">
+
+		<div id="navbar">
+			  <a style="font-weight:bold" href="index.html" class="home">Eunsu Choi</a>
+			  <a href="index.html#aboutContainer">About</a>
+			  <a href="index.html#worksHeading">Works</a>
+			  <a href="index.html#newsHeading">Media Coverage</a>
+			  <a href="index.html#contactHeading">Contact</a>
+
+		</div>
+
+		<div class="content">
+		<div id="aboutContainer">
+
+			<div>
+				<h2>String Quartet No.1</h2>
+				<p>
+					String Quartet was inspired by an observation of people and their tendencies in a group setting. The piece was written in a palindromic form with canonical features and Lydian modal characteristics. 
+
+					<br>The Music Program at NYUAD, in collaboration with Chamber Music Abu Dhabi and the United States State Department, hosted an evening of performance by the Omer Quartet. The evening featured works composed by NYUAD student composers. The Omer Quartet also performed a list of selected works from their advanced repertoire of works written for string quartets.
+				</p>
+			</div>
+		</div>
+<div id="vidContainer">
+        <iframe width="800" height="600"
+				src="https://www.youtube.com/embed/prXzqEXDGFA?si=vBEKvvY-a8MpBpEN" alt="String Quartet No.1">
+				</iframe>
+      </div>
+	
+<div id=timelineContainer>
+    <div id="timeline">
+			00:11-02:55
+			<br>02:55-04:34
+
+		</div>
+
+		<div id="time">
+			1st Movement
+			<br>2nd Movement
+
+		</div>
+	</div>
+			
+	<div id="headingContainer">
+				
+				<h2>Other Compositions for Pop, Chamber, and Experimental Music</h2>
+				
+			</div>
+
+
+			<div id="otherWorksContainer">
+				<div class="gallery">
+				  <a href="pop.html">
+				    <img src="images/coastline.png" alt="1st EP: Narratives of Nature">
+				  </a>
+				  <div class="desc">1st EP: Narratives of Nature</div>
+				</div>
+
+				<!-- <div class="gallery">
+				  <a href="chamber.html">
+				    <img src="images/omerquartet.png" alt="String Quartet No.1">
+				  </a>
+				  <div class="desc">String Quartet No.1</div>
+				</div> -->
+
+				<div class="gallery">
+				  <a href="experimental.html">
+				    <img src="images/phenomenal.png" alt="18 and 130: Re-examining the Shakespearean Sonnets with Words of Maya Angelou">
+				  </a>
+				  <div class="desc">18 and 130: Re-examining the Shakespearean Sonnets with Words of Maya Angelou</div>
+				</div>
+			</div>
+
+		
+
+		<div id="contactHeading">
+			
+			<h2>Contact</h2>
+			
+		</div>
+		<div id="headingContainer">
+			<p>Email : eunsu.music@gmail.com <br>
+			YouTube : https://www.youtube.com/@eunsumusic<br>
+			LinkedIn : https://www.linkedin.com/in/eunsuchoi/</p>
+			
+		</div>
+		<div id="contactContainer">
+				<!-- Add font awesome icons -->
+				<a href="mailto:eunsu.music@gmail.com" class="fa fa-google"></a>
+				<a href="https://www.youtube.com/@eunsumusic" class="fa fa-youtube"></a>
+				<a href="https://www.linkedin.com/in/eunsuchoi/" class="fa fa-linkedin"></a>
+				
+			</div>
+	</div>
+	<script>// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}</script>
+
+</body>
+</html>

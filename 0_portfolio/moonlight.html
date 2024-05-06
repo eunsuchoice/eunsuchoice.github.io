@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Eunsu Choi</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Add icon library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		/*Social media icons*/
+
+.fa {
+  padding: 20px;
+  font-size: 45px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+	</style>
+
+</head>
+<body>
+	<div id="MainContainter">
+
+		<div id="navbar">
+			  <a style="font-weight:bold" href="index.html" class="home">Eunsu Choi</a>
+			  <a href="index.html#aboutContainer">About</a>
+			  <a href="index.html#worksHeading">Works</a>
+			  <a href="index.html#newsHeading">Media Coverage</a>
+			  <a href="index.html#contactHeading">Contact</a>
+
+		</div>
+
+		<div class="content">
+		<div id="aboutContainer">
+
+			<div>
+				<h2>MOONLIGHT PHARMACY The Musical</h2>
+				<p>
+					Moonlight Pharmacy The Musical is a musical theatre work centered around a mysterious pharmacy that operates exclusively at night. The story follows a night owl female lead who stumbles upon the astonishing truth: the pharmacist undergoes a peculiar transformation during the day, returning to human form only by nightfall. At first, she playfully imagines him to be a vampire akin to Edward Cullen, but her perception takes an amusing twist when she learns that he actually transforms into a rabbit. Determined to help him break the enchantment, she embarks on a journey to restore his full humanity, all while unraveling the secrets of the enchanting "Moonlight Pharmacy.”
+					<br><br>
+        	Drawing inspiration from the Chinese mythical archer Hou Yi and the Korean traditional legend of the 'moon rabbit,' the musical creatively reimagines two myths within a contemporary backdrop, aiming to evoke laughter and spark a sense of fantasy among its audience.
+				</p>
+			</div>
+		</div>
+<div id="vidContainer">
+           		<iframe width="800" height="600"
+				src="https://www.youtube.com/embed/lZYFIaH0T_E?si=RY3cgnu-NPm3NopN" alt="Moonlight Pharmacy The Musical">
+				</iframe>
+      </div>
+	
+<div id=timelineContainer>
+    <div id="timeline">
+			00:00-03:10
+			<br>03:10-06:23
+
+		</div>
+
+		<div id="time">
+			04. Perhaps
+			<br>02. Just One More
+
+		</div>
+	</div>
+		<div id="newsHeading">
+			
+			<h2>Meeet The Team</h2>
+			
+		</div>
+		<div id="photoContainer">
+           		<img class="team photo" src="images/moonlightteam.jpeg" width="600px" alt="Repeated Team"/>
+      </div>
+
+				<div id="newsHeading">
+		<div id="infoContainer">
+			<p><strong>Cast</strong>
+				<br>Lua: Habeen Baek
+				<br>Towol: Seunghoon Geum
+				<br><br>
+				<strong>Creative Team</strong>
+				<br>Music and Lyrics: Eunsu Choi
+				<br>Book and Lyrics: Jiyoung Kang
+				<br>Mentor: Kate Kyunghwa Choi
+
+		</div>
+		
+			
+			<h2>Showcase</h2>
+			
+		</div>
+
+		<div id="aboutContainer">
+					    <img src="images/showcase.png" width=auto height="500" style="margin-right: 10px;">
+					    <img src="images/showcase2.png" width=auto height="500">
+		</div>
+		<div id="contactHeading">
+	</div>
+
+
+
+		<div id="worksHeading">
+			<h2>Other Compositions for Musical Theatre</h2>
+		</div>
+
+		<div id="worksContainer">
+				
+				
+				<div class="gallery">
+				  <a href="repeated.html">
+				    <img src="images/repeated.png" alt="Repeated: a short musical">
+				  </a>
+				  <div class="desc">REPEATED: a short musical</div>
+				</div>
+
+				<div class="gallery">
+				  <a href="departure.html">
+				    <img src="images/departure.png" alt="Departure: a staged song cycle">
+				  </a>
+				  <div class="desc">DEPARTURE: a staged song cycle</div>
+				</div>
+
+		</div>
+
+		
+
+		<div id="contactHeading">
+			
+			<h2>Contact</h2>
+			
+		</div>
+		<div id="headingContainer">
+			<p>Email : eunsu.music@gmail.com <br>
+			YouTube : https://www.youtube.com/@eunsumusic<br>
+			LinkedIn : https://www.linkedin.com/in/eunsuchoi/</p>
+			
+		</div>
+		<div id="contactContainer">
+				<!-- Add font awesome icons -->
+				<a href="mailto:eunsu.music@gmail.com" class="fa fa-google"></a>
+				<a href="https://www.youtube.com/@eunsumusic" class="fa fa-youtube"></a>
+				<a href="https://www.linkedin.com/in/eunsuchoi/" class="fa fa-linkedin"></a>
+				
+			</div>
+	</div>
+	<script>// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}</script>
+
+</body>
+</html>
