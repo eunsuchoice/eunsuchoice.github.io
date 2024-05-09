@@ -290,7 +290,7 @@ div.gallery {
 /*  border: 1px solid #ccc;*/
   float: left;
   width: 280px;
-  transition-duration: 1s;
+  transition-duration: 0.4s;
 }
 
 div.gallery:hover {
